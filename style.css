@@ -355,6 +355,12 @@ main {
   border-radius: 20px;
 }
 
+.avatar-box img {
+  padding: 10px;
+  padding-bottom: 1px;
+  border-radius: 25px;
+}
+
 .info-content .name {
   color: var(--white-2);
   font-size: var(--fs-3);
