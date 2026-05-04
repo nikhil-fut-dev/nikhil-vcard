@@ -1339,6 +1339,14 @@ textarea.form-input::-webkit-resizer {
  * responsive larger than 450px screen
  */
 
+@media (min-width: 390px) {
+  .avatar-box img {
+    padding: 0px;
+    padding-bottom: 0px;
+    border-radius: 25px;
+  }
+}
+
 @media (min-width: 450px) {
   /**
    * client
@@ -1391,7 +1399,7 @@ textarea.form-input::-webkit-resizer {
    * #REUSED STYLE
    */
 
-   .avatar-box img {
+  .avatar-box img {
     padding: 3px;
     padding-bottom: 2px;
     border-radius: 25px;
